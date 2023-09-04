@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(18, 18, 18);
+  color: rgb(241, 245, 249);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 48rem;
+  padding: 0 1.25rem;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100vh;
+  justify-content: center;
+}
+
+figure,
+figcaption,
+p {
+  margin: 0;
+}
+
+#quotation {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+figcaption {
+  color: rgb(127, 135, 146);
+  text-align: right;
+}
+
+cite {
+  font-style: normal;
+}
+
+#fetch-highlight-btn {
+  background-color: transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)),
+    radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border: 2px double transparent;
+  border-radius: 0.45rem;
+  color: inherit;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin: 0 auto;
+  padding: 0.4rem 1rem;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  main {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  #fetch-highlight-btn {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    padding: 0;
+  }
+}

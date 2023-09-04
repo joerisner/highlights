@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Highlights</title>
+    <meta name="description" content="Randomly generated quotations sourced from passages I've highlighted in books." />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <figure>
+          <blockquote id="quotation">
+            There are no safe paths in this part of the world. Remember you are over the Edge of the Wild now, and in
+            for all sorts of fun wherever you go.
+          </blockquote>
+          <figcaption>
+            <p id="author">J.R.R Tolkien</p>
+            <cite id="source">The Hobbit</cite>
+          </figcaption>
+        </figure>
+        <button id="fetch-highlight-btn" onclick="fetchRandomQuotation()">Enlighten me, Boon...</button>
+      </section>
+    </main>
+    <script>
+      const fetchRandomQuotation = async () => {
+        const response = await fetch('https://www.wisebird.dev/random');
+        const json = await response.json();
+
+        const { author, quotation, source } = json;
+
+        document.getElementById('quotation').innerHTML = quotation.body;
+        document.getElementById('author').innerHTML = `${author.firstName} ${author.lastName}`;
+        document.getElementById('source').innerHTML = source.title;
+      };
+    </script>
+  </body>
+</html>
