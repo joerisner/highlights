@@ -57,6 +57,11 @@ cite {
   transition: all 0.3s ease;
 }
 
+::selection {
+  color: rgb(18, 18, 18);
+  background-color: rgb(139, 92, 246);
+}
+
 @media (min-width: 768px) {
   main {
     font-size: 1.125rem;
