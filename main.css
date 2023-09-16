@@ -26,6 +26,10 @@ p {
   margin: 0;
 }
 
+figure {
+  width: 100%;
+}
+
 #quotation {
   margin: 0 0 1.5rem 0;
   font-size: 1.25rem;
