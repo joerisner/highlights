@@ -29,7 +29,7 @@
     </main>
     <script>
       const fetchRandomQuotation = async () => {
-        const response = await fetch('https://www.wisebird.dev/random');
+        const response = await fetch('http://localhost:3000/random');
         const json = await response.json();
 
         const { author, quotation, source } = json;
