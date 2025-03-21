@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+remove_artifacts() {
+  ARTIFACTS=(./.ruff_cache)
+
+  for ARTIFACT in "${ARTIFACTS[@]}"; do
+    if [[ -d "${ARTIFACT}" ]]; then
+      rm -rf "${ARTIFACT}"
+      printf "Removed artifact: \033[35;1m%s\033[0m\n" "${ARTIFACT}"
+    fi
+  done
+}
+
+remove_artifacts
