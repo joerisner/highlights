@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 
 remove_artifacts() {
-  local ARTIFACTS=(./.ruff_cache)
+  local ARTIFACTS=(
+    ./.ruff_cache
+    ./instance
+    ./tests/.pytest_cache
+    ./tests/coverage
+    ./tests/test_results
+  )
 
   for ARTIFACT in "${ARTIFACTS[@]}"; do
     if [[ -d "${ARTIFACT}" ]]; then

@@ -11,3 +11,15 @@ wheels/
 
 # Ruff
 .ruff_cache/
+
+# IDE
+.vscode/*
+!/.vscode/settings.json
+
+# Testing
+tests/test_results/
+tests/coverage/
+tests/.pytest_cache/
+
+# Flask
+instance/
