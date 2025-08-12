@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 remove_artifacts() {
-  ARTIFACTS=(./.ruff_cache)
+  local ARTIFACTS=(./.ruff_cache)
 
   for ARTIFACT in "${ARTIFACTS[@]}"; do
     if [[ -d "${ARTIFACT}" ]]; then
