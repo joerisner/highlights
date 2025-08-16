@@ -1,5 +1,8 @@
 .DEFAULT_GOAL=help
-.PHONY: clean dev help install lint setup test
+.PHONY: check clean dev help install lint setup test
+
+ci: install lint test ## Run CI locally
+	@true
 
 clean: ## Remove temporary artifacts
 	@bin/clean
@@ -17,10 +20,12 @@ install: ## Install dependencies and update the environment
 	@uv sync
 
 lint: install ## Run lint and format checks
+	@printf "\033[35;1m==> Lint\033[0m\n"
 	@uv run ruff check
 
 setup: ## Setup the project
 	@bin/setup
 
 test: install ## Run unit tests
+	@printf "\033[35;1m==> Pytest\033[0m\n"
 	@uv run pytest
