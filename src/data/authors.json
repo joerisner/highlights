@@ -1,0 +1,114 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "firstName": "J.R.R.",
+      "lastName": "Tolkien"
+    },
+    {
+      "id": 2,
+      "firstName": "Justin Whitmel",
+      "lastName": "Earley"
+    },
+    {
+      "id": 3,
+      "firstName": "Watchman",
+      "lastName": "Nee"
+    },
+    {
+      "id": 4,
+      "firstName": "Thomas",
+      "lastName": "Figg"
+    },
+    {
+      "id": 5,
+      "firstName": "Jon",
+      "lastName": "Tyson"
+    },
+    {
+      "id": 6,
+      "firstName": "Frederick",
+      "lastName": "Douglass"
+    },
+    {
+      "id": 7,
+      "firstName": "Sherwood",
+      "lastName": "Anderson"
+    },
+    {
+      "id": 8,
+      "firstName": "Chip & Dan",
+      "lastName": "Heath"
+    },
+    {
+      "id": 9,
+      "firstName": "C.S.",
+      "lastName": "Lewis"
+    },
+    {
+      "id": 10,
+      "firstName": "Robert",
+      "lastName": "Ruark"
+    },
+    {
+      "id": 11,
+      "firstName": "Voddie",
+      "lastName": "Baucham"
+    },
+    {
+      "id": 12,
+      "firstName": "T. Austin",
+      "lastName": "Sparks"
+    },
+    {
+      "id": 13,
+      "firstName": "Cotton",
+      "lastName": "Mather"
+    },
+    {
+      "id": 14,
+      "firstName": "Alfred",
+      "lastName": "Edersheim"
+    },
+    {
+      "id": 15,
+      "firstName": "Kevin",
+      "lastName": "Leman"
+    },
+    {
+      "id": 16,
+      "firstName": "Mrs. Charles E.",
+      "lastName": "Cowman"
+    },
+    {
+      "id": 17,
+      "firstName": "Andrew",
+      "lastName": "Murray"
+    },
+    {
+      "id": 18,
+      "firstName": "John",
+      "lastName": "Piper"
+    },
+    {
+      "id": 19,
+      "firstName": "John",
+      "lastName": "Calvin"
+    },
+    {
+      "id": 20,
+      "firstName": "Shawn",
+      "lastName": "Ryan"
+    },
+    {
+      "id": 21,
+      "firstName": "Matthew B.",
+      "lastName": "Crawford"
+    },
+    {
+      "id": 22,
+      "firstName": "A.W.",
+      "lastName": "Tozer"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "sources": [
+    {
+      "id": 1,
+      "completed": true,
+      "title": "The Hobbit",
+      "type": "BOOK"
+    },
+    {
+      "id": 2,
+      "completed": true,
+      "title": "Habits of the Household",
+      "type": "BOOK"
+    },
+    {
+      "id": 3,
+      "completed": true,
+      "title": "The Normal Christian Life",
+      "type": "BOOK"
+    },
+    {
+      "id": 4,
+      "completed": true,
+      "title": "programming is terrible",
+      "type": "BLOG_ARTICLE"
+    },
+    {
+      "id": 5,
+      "completed": true,
+      "title": "The Intentional Father",
+      "type": "BOOK"
+    },
+    {
+      "id": 6,
+      "completed": true,
+      "title": "West India Emancipation Address",
+      "type": "SPEECH"
+    },
+    {
+      "id": 7,
+      "completed": true,
+      "title": "Winesburg, Ohio: A Group of Tales of Ohio Small Town Life",
+      "type": "BOOK"
+    },
+    {
+      "id": 8,
+      "completed": true,
+      "title": "The Power of Moments",
+      "type": "BOOK"
+    },
+    {
+      "id": 9,
+      "completed": true,
+      "title": "Mere Christianity",
+      "type": "BOOK"
+    },
+    {
+      "id": 10,
+      "completed": true,
+      "title": "The Old Man and the Boy",
+      "type": "BOOK"
+    },
+    {
+      "id": 11,
+      "completed": true,
+      "title": "Family Shepherds",
+      "type": "BOOK"
+    },
+    {
+      "id": 12,
+      "completed": true,
+      "title": "In Christ",
+      "type": "BOOK"
+    },
+    {
+      "id": 13,
+      "completed": true,
+      "title": "Striving in Prayer",
+      "type": "BOOK"
+    },
+    {
+      "id": 14,
+      "completed": true,
+      "title": "A Family Well Ordered",
+      "type": "BOOK"
+    },
+    {
+      "id": 15,
+      "completed": false,
+      "title": "Sketches of Jewish Social Life in the Days of Christ",
+      "type": "BOOK"
+    },
+    {
+      "id": 16,
+      "completed": true,
+      "title": "The Way of the Shepherd",
+      "type": "BOOK"
+    },
+    {
+      "id": 17,
+      "completed": true,
+      "title": "Streams in the Desert",
+      "type": "BOOK"
+    },
+    {
+      "id": 18,
+      "completed": true,
+      "title": "Humility",
+      "type": "BOOK"
+    },
+    {
+      "id": 19,
+      "completed": false,
+      "title": "Finally Alive",
+      "type": "BOOK"
+    },
+    {
+      "id": 20,
+      "completed": true,
+      "title": "Institutes of the Christian Religion",
+      "type": "BOOK"
+    },
+    {
+      "id": 21,
+      "completed": true,
+      "title": "The Shawn Ryan Show",
+      "type": "PODCAST"
+    },
+    {
+      "id": 22,
+      "completed": true,
+      "title": "Shop Class as Soulcraft",
+      "type": "BOOK"
+    },
+    {
+      "id": 23,
+      "completed": false,
+      "title": "The Knowledge of the Holy",
+      "type": "BOOK"
+    }
+  ]
+}
