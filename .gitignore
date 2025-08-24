@@ -20,6 +20,3 @@ wheels/
 tests/test_results/
 tests/coverage/
 tests/.pytest_cache/
-
-# Flask
-instance/
