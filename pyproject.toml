@@ -8,7 +8,7 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "flask>=3.1.1",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.116.1",
 ]
 
 [dependency-groups]

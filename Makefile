@@ -1,5 +1,5 @@
 .DEFAULT_GOAL=help
-.PHONY: check clean dev help install lint setup test
+.PHONY: ci clean dev help install lint setup test
 
 ci: install lint test ## Run CI locally
 	@true
@@ -7,8 +7,8 @@ ci: install lint test ## Run CI locally
 clean: ## Remove temporary artifacts
 	@bin/clean
 
-dev: setup install ## Run the Flask application in dev mode
-	@uv run flask --app src run --debug
+dev: setup install ## Run the application in dev mode
+	@uv run fastapi dev src/main.py
 
 help: ## Show this help
 	@awk 'BEGIN {FS = ":.*##"; \
