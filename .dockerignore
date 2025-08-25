@@ -1,0 +1,11 @@
+.DS_Store
+.dockerignore
+.git/
+.github/
+.gitignore
+.ruff_cache/
+.venv/
+.vscode/
+Dockerfile
+README.md
+tests/

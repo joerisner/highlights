@@ -1,5 +1,5 @@
 .DEFAULT_GOAL=help
-.PHONY: ci clean dev help install lint setup test
+.PHONY: ci clean dev help install lint setup test dbuild drun dstop
 
 ci: install lint test ## Run CI locally
 	@true
@@ -8,7 +8,7 @@ clean: ## Remove temporary artifacts
 	@bin/clean
 
 dev: setup install ## Run the application in dev mode
-	@uv run fastapi dev src/main.py
+	@uv run fastapi dev --port 3000 src/main.py
 
 help: ## Show this help
 	@awk 'BEGIN {FS = ":.*##"; \
@@ -29,3 +29,13 @@ setup: ## Setup the project
 test: install ## Run unit tests
 	@printf "\033[35;1m==> Pytest\033[0m\n"
 	@uv run pytest
+
+dbuild: ## Build a docker image of the project
+	@docker build --no-cache -t highlights .
+
+drun: dbuild ## Start the API server in a container
+	@docker run --rm -d --name highlights -p 3000:3000 highlights
+	@printf "\033[32;1mHighlights API server is now running\033[0m\n"
+
+dstop: ## Shut down the running container
+	@docker stop -t 0 highlights

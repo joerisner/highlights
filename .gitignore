@@ -20,3 +20,6 @@ wheels/
 tests/test_results/
 tests/coverage/
 tests/.pytest_cache/
+
+# MacOS
+.DS_Store
