@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException
 
 from ..models.author import Author, find_author, find_authors
 
-router = APIRouter(prefix="/authors")
+router = APIRouter(prefix="/authors", tags=["authors"])
 
 
 @router.get("")

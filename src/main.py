@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Response
 
 from .routers.authors import router as authors_router
-from .routers.healthcheck import router as healthcheck_router
+from .routers.health import router as healthcheck_router
 
 app = FastAPI()
 
