@@ -11,4 +11,4 @@ app.include_router(authors_router)
 
 @app.get("/")
 def get_root() -> Response:
-    return Response("Application is running.")
+    return {"message": "Application is running."}
