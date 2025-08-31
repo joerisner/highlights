@@ -2,113 +2,113 @@
   "authors": [
     {
       "id": 1,
-      "firstName": "J.R.R.",
-      "lastName": "Tolkien"
+      "first_name": "J.R.R.",
+      "last_name": "Tolkien"
     },
     {
       "id": 2,
-      "firstName": "Justin Whitmel",
-      "lastName": "Earley"
+      "first_name": "Justin Whitmel",
+      "last_name": "Earley"
     },
     {
       "id": 3,
-      "firstName": "Watchman",
-      "lastName": "Nee"
+      "first_name": "Watchman",
+      "last_name": "Nee"
     },
     {
       "id": 4,
-      "firstName": "Thomas",
-      "lastName": "Figg"
+      "first_name": "Thomas",
+      "last_name": "Figg"
     },
     {
       "id": 5,
-      "firstName": "Jon",
-      "lastName": "Tyson"
+      "first_name": "Jon",
+      "last_name": "Tyson"
     },
     {
       "id": 6,
-      "firstName": "Frederick",
-      "lastName": "Douglass"
+      "first_name": "Frederick",
+      "last_name": "Douglass"
     },
     {
       "id": 7,
-      "firstName": "Sherwood",
-      "lastName": "Anderson"
+      "first_name": "Sherwood",
+      "last_name": "Anderson"
     },
     {
       "id": 8,
-      "firstName": "Chip & Dan",
-      "lastName": "Heath"
+      "first_name": "Chip & Dan",
+      "last_name": "Heath"
     },
     {
       "id": 9,
-      "firstName": "C.S.",
-      "lastName": "Lewis"
+      "first_name": "C.S.",
+      "last_name": "Lewis"
     },
     {
       "id": 10,
-      "firstName": "Robert",
-      "lastName": "Ruark"
+      "first_name": "Robert",
+      "last_name": "Ruark"
     },
     {
       "id": 11,
-      "firstName": "Voddie",
-      "lastName": "Baucham"
+      "first_name": "Voddie",
+      "last_name": "Baucham"
     },
     {
       "id": 12,
-      "firstName": "T. Austin",
-      "lastName": "Sparks"
+      "first_name": "T. Austin",
+      "last_name": "Sparks"
     },
     {
       "id": 13,
-      "firstName": "Cotton",
-      "lastName": "Mather"
+      "first_name": "Cotton",
+      "last_name": "Mather"
     },
     {
       "id": 14,
-      "firstName": "Alfred",
-      "lastName": "Edersheim"
+      "first_name": "Alfred",
+      "last_name": "Edersheim"
     },
     {
       "id": 15,
-      "firstName": "Kevin",
-      "lastName": "Leman"
+      "first_name": "Kevin",
+      "last_name": "Leman"
     },
     {
       "id": 16,
-      "firstName": "Mrs. Charles E.",
-      "lastName": "Cowman"
+      "first_name": "Mrs. Charles E.",
+      "last_name": "Cowman"
     },
     {
       "id": 17,
-      "firstName": "Andrew",
-      "lastName": "Murray"
+      "first_name": "Andrew",
+      "last_name": "Murray"
     },
     {
       "id": 18,
-      "firstName": "John",
-      "lastName": "Piper"
+      "first_name": "John",
+      "last_name": "Piper"
     },
     {
       "id": 19,
-      "firstName": "John",
-      "lastName": "Calvin"
+      "first_name": "John",
+      "last_name": "Calvin"
     },
     {
       "id": 20,
-      "firstName": "Shawn",
-      "lastName": "Ryan"
+      "first_name": "Shawn",
+      "last_name": "Ryan"
     },
     {
       "id": 21,
-      "firstName": "Matthew B.",
-      "lastName": "Crawford"
+      "first_name": "Matthew B.",
+      "last_name": "Crawford"
     },
     {
       "id": 22,
-      "firstName": "A.W.",
-      "lastName": "Tozer"
+      "first_name": "A.W.",
+      "last_name": "Tozer"
     }
   ]
 }
