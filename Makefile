@@ -38,7 +38,7 @@ dbuild: ## Build a docker image of the project
 
 drun: dbuild ## Start the API server in a container
 	@docker run --rm -d --name highlights -p 3000:3000 highlights
-	@printf "\033[32;1mHighlights API server is now running\033[0m\n"
+	@printf "\033[32;1mHighlights server is now running\033[0m\n"
 
 dstop: ## Shut down the running container
 	@docker stop -t 0 highlights
