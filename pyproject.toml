@@ -39,7 +39,8 @@ addopts = [
     "--cov-report=html",
     "--cov-report=xml",
     "--junitxml=tests/test_results/junit.xml",
-    "--strict-config"
+    "--strict-config",
+    "-vv"
 ]
 cache_dir = "tests/.pytest_cache"
 junit_suite_name = "highlights"

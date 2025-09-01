@@ -1,11 +1,14 @@
 .DEFAULT_GOAL=help
-.PHONY: ci clean dev help install lint setup test dbuild drun dstop
+.PHONY: ci clean coverage dev help install lint setup test dbuild drun dstop
 
 ci: install lint test ## Run CI locally
 	@true
 
 clean: ## Remove temporary artifacts
 	@bin/clean
+
+coverage: ## View test coverage report
+	@open tests/coverage/html/index.html
 
 dev: setup install ## Run the application in dev mode
 	@uv run fastapi dev --port 3000 src/main.py

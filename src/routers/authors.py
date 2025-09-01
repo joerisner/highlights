@@ -1,6 +1,14 @@
 from fastapi import APIRouter, HTTPException
+from pydantic import BaseModel
 
-from ..models.author import Author, AuthorRecord
+from ..models.author import Author
+
+
+class AuthorRecord(BaseModel):
+    id: int
+    first_name: str
+    last_name: str
+
 
 router = APIRouter(prefix="/authors", tags=["authors"])
 
