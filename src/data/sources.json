@@ -137,6 +137,12 @@
       "completed": false,
       "title": "The Knowledge of the Holy",
       "type": "BOOK"
+    },
+    {
+      "id": 24,
+      "completed": true,
+      "title": "David Livingstone: Africa's Trailblazer",
+      "type": "BOOK"
     }
   ]
 }
