@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-# Install `uv` if it doesn't exist, check for specific `uv` configuration,
-# and ensure the project's required Python version is installed (using `uv`).
-
-success() { printf "\033[0;32m%s\033[0m\n" "${1}"; }
+# Install `uv` if it doesn't exist and ensure the project's 
+# required Python version is installed (using `uv`).
 
 check_for_uv() {
   if ! command -v uv >/dev/null; then
