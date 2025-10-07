@@ -26,7 +26,7 @@ lint: install ## Run lint and format checks
 	@printf "\033[35;1m==> Lint\033[0m\n"
 	@uv run ruff check
 
-setup: ## Setup the project
+setup: ## Install uv and required Python version
 	@bin/setup
 
 test: install ## Run unit tests
