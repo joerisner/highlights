@@ -135,6 +135,26 @@
     {
       "id": 34,
       "name": "Responsibility"
+    },
+    {
+      "id": 35,
+      "name": "Affections"
+    },
+    {
+      "id": 36,
+      "name": "Revival"
+    },
+    {
+      "id": 37,
+      "name": "Preaching"
+    },
+    {
+      "id": 38,
+      "name": "Genuineness"
+    },
+    {
+      "id": 39,
+      "name": "Will"
     }
   ]
 }
