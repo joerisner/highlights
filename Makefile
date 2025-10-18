@@ -1,5 +1,5 @@
 .DEFAULT_GOAL=help
-.PHONY: ci clean coverage dev help install lint setup test dbuild drun dstop
+.PHONY: ci clean coverage dev help install lint setup test typecheck dbuild drun dstop
 
 ci: install lint typecheck test ## Run CI locally
 	@true
