@@ -1,3 +1,5 @@
+from typing import Any
+
 from .base import Base
 
 
@@ -5,7 +7,7 @@ class Quotation(Base):
     DATA_FILE = "quotations.json"
 
     @classmethod
-    def find_by_params(cls, **attrs) -> list[dict]:
+    def find_by_params(cls, **attrs: dict[str, int]) -> list[dict[str, Any]]:
         """
         Find a list of quotations by attributes.
         Returns:

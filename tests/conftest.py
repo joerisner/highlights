@@ -1,10 +1,11 @@
+from typing import Any
 from unittest.mock import patch
 
 import pytest
 
 
 @pytest.fixture
-def mock_authors():
+def mock_authors() -> list[dict[str, Any]]:
     return [
         {"id": 1, "first_name": "Michael", "last_name": "Scott"},
         {"id": 2, "first_name": "Dwight", "last_name": "Schrute"},
@@ -13,7 +14,7 @@ def mock_authors():
 
 
 @pytest.fixture
-def mock_sources():
+def mock_sources() -> list[dict[str, Any]]:
     return [
         {"id": 1, "completed": False, "title": "Season 1", "type": "SERIES"},
         {"id": 2, "completed": True, "title": "Season 2", "type": "TELEVISION"},
@@ -22,7 +23,7 @@ def mock_sources():
 
 
 @pytest.fixture
-def mock_tags():
+def mock_tags() -> list[dict[str, Any]]:
     return [
         {"id": 1, "name": "comedically-humorous"},
         {"id": 2, "name": "inappropriate"},
@@ -31,7 +32,7 @@ def mock_tags():
 
 
 @pytest.fixture
-def mock_quotations():
+def mock_quotations() -> list[dict[str, Any]]:
     return [
         {
             "id": 1,

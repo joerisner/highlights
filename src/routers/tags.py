@@ -17,7 +17,8 @@ def get_tags() -> list[TagRecord]:
     """
     Show a list of all tags.
     """
-    return Tag.find_all()
+    tags = Tag.find_all()
+    return [TagRecord(id=tag["id"], name=tag["name"]) for tag in tags]
 
 
 @router.get("/{tag_id}")
@@ -30,4 +31,4 @@ def get_tag(tag_id: int) -> TagRecord:
     if not tag:
         raise HTTPException(status_code=404, detail="Tag not found.")
 
-    return tag
+    return TagRecord(id=tag["id"], name=tag["name"])

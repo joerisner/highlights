@@ -33,7 +33,7 @@ def test_find_by_params_with_no_attrs_returns_all_quotations(mock_quotations):
 
 
 def test_find_by_params_with_author_id_returns_quotations():
-    result = Quotation.find_by_params(author_id=3)
+    result = Quotation.find_by_params(author_id=3)  # type: ignore
     assert result == [
         {
             "id": 3,
@@ -47,7 +47,7 @@ def test_find_by_params_with_author_id_returns_quotations():
 
 
 def test_find_by_params_with_source_id_returns_quotations():
-    result = Quotation.find_by_params(source_id=2)
+    result = Quotation.find_by_params(source_id=2)  # type: ignore
     assert result == [
         {
             "id": 2,
@@ -61,7 +61,7 @@ def test_find_by_params_with_source_id_returns_quotations():
 
 
 def test_find_by_params_with_tag_id_returns_quotations():
-    result = Quotation.find_by_params(tag_id=2)
+    result = Quotation.find_by_params(tag_id=2)  # type: ignore
     assert result == [
         {
             "id": 1,

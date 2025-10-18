@@ -5,11 +5,14 @@ subclass behavior similar to Rails' ActiveRecord query behavior for models.
 
 import json
 from pathlib import Path
+from typing import Any
 
 
 class Base:
+    DATA_FILE: str
+
     @classmethod
-    def _load_data(cls) -> dict | None:
+    def _load_data(cls) -> dict[str, Any] | None:
         """
         Load JSON data from a class's data file. Not meant to be called directly from subclasses.
         """
@@ -21,7 +24,7 @@ class Base:
             print(f"Could not find data file {e.filename}")
 
     @classmethod
-    def find_all(cls) -> list[dict]:
+    def find_all(cls) -> list[dict[str, Any]]:
         """
         Finds all records from the class's JSON data file.
 
@@ -37,7 +40,7 @@ class Base:
         return data[class_key]
 
     @classmethod
-    def find(cls, id: int) -> dict | None:
+    def find(cls, id: int) -> dict[str, Any] | None:
         """
         Find a record by id from the class's JSON data file.
 

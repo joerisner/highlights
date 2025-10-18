@@ -19,7 +19,11 @@ def get_sources() -> list[SourceRecord]:
     """
     Show a list of all sources.
     """
-    return Source.find_all()
+    sources = Source.find_all()
+    return [
+        SourceRecord(id=source["id"], completed=source["completed"], title=source["title"], type=source["type"])
+        for source in sources
+    ]
 
 
 @router.get("/{source_id}")
@@ -32,4 +36,4 @@ def get_source(source_id: int) -> SourceRecord:
     if not source:
         raise HTTPException(status_code=404, detail="Source not found.")
 
-    return source
+    return SourceRecord(id=source["id"], completed=source["completed"], title=source["title"], type=source["type"])

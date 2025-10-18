@@ -16,6 +16,7 @@ dev = [
     "pytest>=8.4.2",
     "pytest-cov>=7.0.0",
     "ruff>=0.13.3",
+    "ty>=0.0.1a23",
 ]
 
 #################
@@ -60,3 +61,6 @@ quote-style = "double"
 [tool.ruff.lint]
 # Pyflakes, pycodestyle, flake8-simplify, pyupgrade, pydocstyle
 select = ["F", "E", "SIM", "UP"]
+
+[tool.ty.rules]
+unresolved-import = "ignore"
