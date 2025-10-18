@@ -1,5 +1,6 @@
-from fastapi import FastAPI, Response
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
 from .routers.authors import router as authors_router
 from .routers.health import router as healthcheck_router
@@ -22,5 +23,5 @@ app.include_router(tags_router)
 
 
 @app.get("/")
-def get_root() -> Response:
-    return {"message": "Application is running."}
+def get_root() -> JSONResponse:
+    return JSONResponse(content={"message": "Application is running."})

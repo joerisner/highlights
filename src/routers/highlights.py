@@ -19,7 +19,7 @@ class Highlight(BaseModel):
     tags: list[str]
 
 
-def _generate_highlight(quotation) -> Highlight:
+def _generate_highlight(quotation: Quotation) -> Highlight:
     """
     Generate a highlight from a quotation record.
     """
