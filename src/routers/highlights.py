@@ -70,7 +70,7 @@ def get_random_highlight() -> Highlight:
     Get a random highlight.
     """
     quotations = Quotation.find_all()
-    random_id = random.choice(quotations).get("id")
+    random_id = random.choice(quotations).get("id")  # noqa S311
     quotation = Quotation.find(random_id)
 
     return _generate_highlight(quotation)
