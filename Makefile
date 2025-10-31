@@ -1,8 +1,5 @@
 .DEFAULT_GOAL=help
-.PHONY: ci clean coverage dev help install lint setup test typecheck dbuild drun dstop
-
-ci: install lint typecheck test ## Run CI locally
-	@true
+.PHONY: clean coverage dev help install setup test dbuild drun dstop
 
 clean: ## Remove temporary artifacts
 	@bin/clean
@@ -22,20 +19,12 @@ help: ## Show this help
 install: ## Install dependencies and update the environment
 	@uv sync
 
-lint: install ## Run lint and format checks
-	@printf "\033[35;1m==> Lint\033[0m\n"
-	@uv run ruff check
-
 setup: ## Install uv and required Python version
 	@bin/setup
 
-test: install ## Run unit tests
+test: ## Run unit tests
 	@printf "\033[35;1m==> Pytest\033[0m\n"
 	@uv run pytest
-
-typecheck: install ## Run typechecker
-	@printf "\033[35;1m==> Typecheck\033[0m\n"
-	@uv run ty check
 
 dbuild: ## Build a docker image of the project
 	@docker build --no-cache -t highlights .

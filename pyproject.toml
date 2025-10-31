@@ -59,8 +59,13 @@ indent-style = "space"
 quote-style = "double"
 
 [tool.ruff.lint]
-# Pyflakes, pycodestyle, flake8-simplify, pyupgrade, pydocstyle
-select = ["F", "E", "SIM", "UP"]
+select = [
+    "F",   # pyflakes
+    "E",   # pycodestyle
+    "SIM", # flake8-simplify
+    "UP",  # pyupgrade
+    "I"    # isort
+]
 
 [tool.ty.rules]
 unresolved-import = "ignore"
