@@ -33,7 +33,7 @@ printf "∞∞∞∞∞∞∞∞ ${BLUE}CI${RESET} ∞∞∞∞∞∞∞∞\n"
 printf "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞\n\n"
 
 run_check "lint" "uv run ruff check ."
-run_check "format" "uv run ruff format --check"
+run_check "format" "uv run ruff format --check ."
 run_check "typecheck" "uv run ty check"
 run_check "test" "make test"
 
