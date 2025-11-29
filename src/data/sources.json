@@ -110,7 +110,7 @@
     },
     {
       "id": 19,
-      "completed": false,
+      "completed": true,
       "title": "Finally Alive",
       "type": "BOOK"
     },
