@@ -149,6 +149,12 @@
       "completed": false,
       "title": "The Religious Affections",
       "type": "BOOK"
+    },
+    {
+      "id": 26,
+      "completed": false,
+      "title": "The Butler Speaks",
+      "type": "BOOK"
     }
   ]
 }
