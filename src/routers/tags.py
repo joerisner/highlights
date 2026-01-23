@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel
 
 from ..models.tag import Tag
@@ -29,6 +29,6 @@ def get_tag(tag_id: int) -> TagRecord:
     tag = Tag.find(tag_id)
 
     if not tag:
-        raise HTTPException(status_code=404, detail="Tag not found.")
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Tag not found")
 
     return TagRecord(id=tag["id"], name=tag["name"])
