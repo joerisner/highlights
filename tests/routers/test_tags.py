@@ -24,4 +24,4 @@ def test_get_tag_by_id_found():
 def test_get_tag_by_id_not_found():
     response = client.get("/tags/999")
     assert response.status_code == 404
-    assert response.json() == {"detail": "Tag not found."}
+    assert response.json() == {"detail": "Tag not found"}

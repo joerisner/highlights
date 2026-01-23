@@ -24,4 +24,4 @@ def test_get_author_by_id_found():
 def test_get_author_by_id_not_found():
     response = client.get("/authors/999")
     assert response.status_code == 404
-    assert response.json() == {"detail": "Author not found."}
+    assert response.json() == {"detail": "Author not found"}

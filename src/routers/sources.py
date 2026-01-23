@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel
 
 from ..models.source import Source
@@ -34,6 +34,6 @@ def get_source(source_id: int) -> SourceRecord:
     source = Source.find(source_id)
 
     if not source:
-        raise HTTPException(status_code=404, detail="Source not found.")
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Source not found")
 
     return SourceRecord(id=source["id"], completed=source["completed"], title=source["title"], type=source["type"])

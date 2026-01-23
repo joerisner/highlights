@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel
 
 from ..models.author import Author
@@ -33,6 +33,6 @@ def get_author(author_id: int) -> AuthorRecord:
     author = Author.find(author_id)
 
     if not author:
-        raise HTTPException(status_code=404, detail="Author not found.")
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Author not found")
 
     return AuthorRecord(id=author["id"], first_name=author["first_name"], last_name=author["last_name"])

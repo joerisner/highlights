@@ -1,6 +1,6 @@
 import random
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel
 
 from ..models.author import Author
@@ -43,7 +43,7 @@ def get_highlights(author: int | None = None, source: int | None = None, tag: in
     """
     if not author and not source and not tag:
         raise HTTPException(
-            status_code=400,
+            status_code=status.HTTP_400_BAD_REQUEST,
             detail="Must request highlights by author, source, or tag!",
         )
 
@@ -58,7 +58,7 @@ def get_highlights(author: int | None = None, source: int | None = None, tag: in
     quotations = Quotation.find_by_params(**query_filter)
 
     if not quotations:
-        raise HTTPException(status_code=404, detail="No quotations found")
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No quotations found")
 
     highlights = map(_generate_highlight, quotations)
     return list(highlights)

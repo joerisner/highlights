@@ -24,4 +24,4 @@ def test_get_source_by_id_found():
 def test_get_source_by_id_not_found():
     response = client.get("/sources/999")
     assert response.status_code == 404
-    assert response.json() == {"detail": "Source not found."}
+    assert response.json() == {"detail": "Source not found"}
