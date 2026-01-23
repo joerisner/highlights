@@ -124,6 +124,16 @@
       "id": 25,
       "first_name": "Charles",
       "last_name": "MacPherson"
+    },
+    {
+      "id": 26,
+      "first_name": "John",
+      "last_name": "Bunyan"
+    },
+    {
+      "id": 27,
+      "first_name": "Martin",
+      "last_name": "Luther"
     }
   ]
 }

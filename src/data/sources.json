@@ -155,6 +155,18 @@
       "completed": false,
       "title": "The Butler Speaks",
       "type": "BOOK"
+    },
+    {
+      "id": 27,
+      "completed": false,
+      "title": "The Pilgrim's Progress",
+      "type": "BOOK"
+    },
+    {
+      "id": 28,
+      "completed": false,
+      "title": "The Bondage of the Will",
+      "type": "BOOK"
     }
   ]
 }
