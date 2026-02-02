@@ -23,3 +23,6 @@ tests/.pytest_cache/
 
 # MacOS
 .DS_Store
+
+# SQLite DB
+db/*.db
