@@ -6279,6 +6279,70 @@
       "author_id": 25,
       "source_id": 26,
       "tag_ids": []
+    },
+    {
+      "id": 786,
+      "body": "The people, especially those who live in the villages, seem to have no knowledge whatever of Christian doctrine, and many of the pastors are ignorant and incompetent teachers.",
+      "metadata": "Preface",
+      "author_id": 27,
+      "source_id": 29,
+      "tag_ids": [11]
+    },
+    {
+      "id": 787,
+      "body": "Ye bishops! what answer will ye give to Christ for having so shamefully neglected the people, and paid no attention to the duties of your office?",
+      "metadata": "Preface",
+      "author_id": 27,
+      "source_id": 29,
+      "tag_ids": [2, 11, 34]
+    },
+    {
+      "id": 788,
+      "body": "Wherefore I beseech you in the Name of God, my beloved brethren, who are pastors or preachers, to engage heartily in the discharge of the duties of your office, to have mercy on the people who are entrusted to your care, and to assist us in introducing the Catechism among them, and especially among the young.",
+      "metadata": "Preface",
+      "author_id": 27,
+      "source_id": 29,
+      "tag_ids": [11, 34]
+    },
+    {
+      "id": 789,
+      "body": "But if any refuse to receive your instructions, tell them plainly that they deny Christ and are not Christians; such persons shall not be admitted to the Lord's Table, nor present a child for baptism, nor enjoy any of our Christian privileges, but are to be sent back to the pope and his agents, and, indeed, to Satan himself.",
+      "metadata": "Preface",
+      "author_id": 27,
+      "source_id": 29,
+      "tag_ids": [11]
+    },
+    {
+      "id": 790,
+      "body": "In the second place; when those whom you are instructing have become familiar with the words of the text, it is time to teach them to understand the meaning of those words, so that they may become acquainted with the object and purport of the lesson.",
+      "metadata": "Preface",
+      "author_id": 27,
+      "source_id": 29,
+      "tag_ids": [11]
+    },
+    {
+      "id": 791,
+      "body": "Here, too, let it be your great aim to urge magistrates and parents to rule wisely, and to educate the children, admonishing them, at the same time, that such duties are imposed on them, and showing them how grievously they sin if they neglect them.",
+      "metadata": "Preface",
+      "author_id": 27,
+      "source_id": 29,
+      "tag_ids": [2, 11, 34]
+    },
+    {
+      "id": 792,
+      "body": "And show them very plainly the shocking evils of which they are the authors, when they refuse their aid in training up children to be pastors, preachers, writers, etc., and set forth that on account of such sins God will inflict an awful punishment upon them. It is, indeed, necessary to preach on these things; for parents and magistrates are guilty of sins in this respect, which are so great that there are no terms in which they can be described.",
+      "metadata": "Preface",
+      "author_id": 27,
+      "source_id": 29,
+      "tag_ids": [2, 11, 34]
+    },
+    {
+      "id": 793,
+      "body": "Will they not necessarily be slothful, if you are silent and sleep? Therefore consider the subject seriously, ye Pastors and Preachers!",
+      "metadata": "Preface",
+      "author_id": 27,
+      "source_id": 29,
+      "tag_ids": [2, 11, 34]
     }
   ]
 }
