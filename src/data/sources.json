@@ -167,6 +167,12 @@
       "completed": false,
       "title": "The Bondage of the Will",
       "type": "BOOK"
+    },
+    {
+      "id": 29,
+      "completed": false,
+      "title": "Luther's Small Catechism",
+      "type": "BOOK"
     }
   ]
 }
