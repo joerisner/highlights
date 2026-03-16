@@ -173,6 +173,12 @@
       "completed": false,
       "title": "Luther's Small Catechism",
       "type": "BOOK"
+    },
+    {
+      "id": 30,
+      "completed": false,
+      "title": "Heaven: A World of Love",
+      "type": "BOOK"
     }
   ]
 }
