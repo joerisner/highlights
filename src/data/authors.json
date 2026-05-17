@@ -134,6 +134,11 @@
       "id": 27,
       "first_name": "Martin",
       "last_name": "Luther"
+    },
+    {
+      "id": 28,
+      "first_name": "Gene",
+      "last_name": "Edwards"
     }
   ]
 }
