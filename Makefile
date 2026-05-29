@@ -1,5 +1,8 @@
 .DEFAULT_GOAL=help
-.PHONY: clean coverage dev help install setup test dbuild drun dstop
+.PHONY: ci clean coverage dev help install setup test dbuild drun dstop
+
+ci: ## Run CI locally
+	@bin/ci
 
 clean: ## Remove temporary artifacts
 	@bin/clean
