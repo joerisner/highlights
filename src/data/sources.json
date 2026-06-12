@@ -152,7 +152,7 @@
     },
     {
       "id": 26,
-      "completed": false,
+      "completed": true,
       "title": "The Butler Speaks",
       "type": "BOOK"
     },
@@ -170,7 +170,7 @@
     },
     {
       "id": 29,
-      "completed": false,
+      "completed": true,
       "title": "Luther's Small Catechism",
       "type": "BOOK"
     },
