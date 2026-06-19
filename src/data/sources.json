@@ -191,6 +191,12 @@
       "completed": true,
       "title": "The Excellency of Christ",
       "type": "BOOK"
+    },
+    {
+      "id": 33,
+      "completed": true,
+      "title": "The Water of Life",
+      "type": "BOOK"
     }
   ]
 }
