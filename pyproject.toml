@@ -6,17 +6,17 @@ readme = "README.md"
 authors = [
     { name = "Joe Risner" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 dependencies = [
-    "fastapi[standard-no-fastapi-cloud-cli]>=0.118.0",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.137.2",
 ]
 
 [dependency-groups]
 dev = [
-    "pytest>=8.4.2",
-    "pytest-cov>=7.0.0",
-    "ruff>=0.13.3",
-    "ty>=0.0.1a23",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.15.18",
+    "ty>=0.0.51",
 ]
 
 #################
@@ -78,7 +78,7 @@ ignore = ["ANN401"]  # allow use of `Any` type
 "tests/**/*.py" = [
     "ANN",  # ignore `annotation` rules for test files
     "S101"  # allow `assert` in tests
-] 
+]
 
 [tool.ty.rules]
 unresolved-import = "ignore"
