@@ -10,7 +10,7 @@ from .routers.tags import router as tags_router
 
 app = FastAPI()
 
-app.add_middleware(CORSMiddleware, allow_origins=["https://www.forjoyoverit.com/"])
+app.add_middleware(CORSMiddleware, allow_origins=["https://www.forjoyoverit.com"])
 
 app.include_router(healthcheck_router)
 app.include_router(authors_router)
