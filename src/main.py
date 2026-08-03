@@ -2,13 +2,15 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
+from .core.config import config
 from .routers.authors import router as authors_router
 from .routers.health import router as healthcheck_router
 from .routers.highlights import router as highlights_router
 from .routers.sources import router as sources_router
 from .routers.tags import router as tags_router
 
-app = FastAPI()
+app = FastAPI(openapi_url=config.OPENAPI_URL)
+
 
 app.add_middleware(CORSMiddleware, allow_origins=["https://www.forjoyoverit.com"])
 
