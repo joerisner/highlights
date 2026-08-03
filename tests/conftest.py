@@ -1,7 +1,17 @@
+from collections.abc import Generator
 from typing import Any
 from unittest.mock import patch
 
 import pytest
+from fastapi.testclient import TestClient
+
+from src.main import app
+
+
+@pytest.fixture
+def client() -> Generator[TestClient]:
+    with TestClient(app=app, base_url="http://test") as client:
+        yield client
 
 
 @pytest.fixture
