@@ -1,11 +1,16 @@
 .DS_Store
+.claude/
 .dockerignore
+.env
 .git/
 .github/
 .gitignore
 .ruff_cache/
 .venv/
 .vscode/
+bin/
+docker-compose.yml
 Dockerfile
+Makefile
 README.md
 tests/
