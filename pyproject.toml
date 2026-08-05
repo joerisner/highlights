@@ -8,7 +8,7 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "fastapi[standard-no-fastapi-cloud-cli]>=0.138.0",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.141.1",
     "httpx2>=2.9.1", # httpx is included w/ FastAPI, but it's not maintained. httpx2 is the standard now.
     "psycopg[binary]>=3.3.4",
     "sqlalchemy>=2.0.51",
@@ -18,8 +18,8 @@ dependencies = [
 dev = [
     "pytest>=9.1.1",
     "pytest-cov>=7.1.0",
-    "ruff>=0.15.18",
-    "ty>=0.0.51",
+    "ruff>=0.16.1",
+    "ty>=0.0.66",
 ]
 
 #################
